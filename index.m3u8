@@ -1,0 +1,27 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1.png",Ant1
+https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/sigma.png",Sigma
+https://ottstream.iptv.prime-tel.net/streaming-web/SigmaLive/playlist.m3u8 Sigma
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/mega.png",Mega
+https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik1.png",Rik1
+https://l6.cloudskep.com/rikct/rik1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik2.png",Rik2
+https://l6.cloudskep.com/rikct/rik2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1gr.png",Ant1GR
+http://31.121.110.30:4000/play/a028/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/megagr.png",MegaGR
+http://31.121.110.30:4000/play/a02d/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/skai.png",Skai
+http://31.121.110.30:4000/play/a02v/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/star.png",Star
+https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/alphagr.png",AlphaGR
+http://31.121.110.30:4000/play/a02c/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert1.png",Ert1
+https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT1/default/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert2.png",Ert2
+https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT2/default/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert3.png",Ert3
+https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT3/default/index.m3u8
