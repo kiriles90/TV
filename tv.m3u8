@@ -9,6 +9,8 @@ https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
 https://l6.cloudskep.com/rikct/rik1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://www.tv643.xo.je/src/img/channels/rik2.png",Rik2
 https://l6.cloudskep.com/rikct/rik2/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://www.tv643.xo.je/src/img/channels/ant1gr.png",Ant1GR
+http://31.121.110.30:4000/play/a028/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.tv643.xo.je/src/img/channels/megagr.png",MegaGR
 http://31.121.110.30:4000/play/a02d/index.m3u8
 #EXTINF:-1 tvg-logo="http://www.tv643.xo.je/src/img/channels/skai.png",Skai
