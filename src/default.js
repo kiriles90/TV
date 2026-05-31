@@ -570,7 +570,7 @@ function moreCh(country) {
         {'title': 'AXELWOS','url': 'https://www.anacon.org/app/chans/gr/axelos.html','img': 'src/img/channels/more/axelos.png'},
         {'title': 'START TV','url': 'https://www.anacon.org/app/chans/gr/start.html','img': 'src/img/channels/more/start.png'},
         {'title': 'CHANNEL9','url': 'https://www.anacon.org/app/chans/gr/channel9.html','img': 'src/img/channels/more/channel9.png'},
-        {'title': 'TV1','url': 'https://www.anacon.org/app/chans/gr/tv1.html','img': 'src/img/channels/more/TV1.png'},
+        {'title': 'TV1','url': 'https://www.anacon.org/app/chans/gr/tv1.html','img': 'src/img/channels/more/tv1.png'},
         {'title': 'EXTRA 3','url': 'https://www.anacon.org/app/chans/gr/extra3.html','img': 'src/img/channels/more/extragr.png'},
         {'title': 'THRAKINET','url': 'https://www.anacon.org/app/chans/gr/thraki.html','img': 'src/img/channels/more/thraki.png'},
         {'title': 'NETTVT','url': 'https://www.anacon.org/app/chans/gr/toronto.html','img': 'src/img/channels/more/netvt.png'},
