@@ -1,0 +1,130 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TV</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="apple-mobile-web-app-title" content="TV">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-title" content="TV">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#000000">
+        <meta name="msapplication-navbutton-color" content="#000000">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
+        <link href="src/default.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" href="src/img/favicon.ico">
+        <link rel="apple-touch-icon" sizes="192x192" href="src/img/favicon.png">
+        <script src="src/default.js"></script>
+    </head>
+    <body onload="initialize();">
+        <div id="hideifrd" onmousedown="hideifr();"></div>
+        <div id="tbar">
+            <a href="https://www.videolan.org/vlc/index.html" target="_blank">VLC 3.0.23</a> & <a href="https://mega.nz/file/dDEkDB5C#05761FMg6CXEWryJ-0_DMRB5koAJiSK1VoHNvRfpwtU" target="_blank">Skin</a><span class="bull"></span>
+            <a href="https://www.stremio.com/downloads" target="_blank">Stremio 5.0.21</a>
+            <a href="https://www.google.com/search?q=cyprus+weather" target="_blank"><img id="weather" src="src/img/weather.png" alt="Weather"></a>
+            <a href="https://www.sigmalive.com/news/all" target="_blank"><img id="sigmalive" src="src/img/sigmalive.png" alt="Sigmalive"></a>
+        </div>
+        <div id="vertical" onmousedown="hideifr();">
+            <div id="hoz">
+                <a href="https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/ant1.png" alt="Ant1"></a>
+                <a href="https://ottstream.iptv.prime-tel.net/streaming-web/SigmaLive/playlist.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/sigma.png" alt="Sigma"></a>
+                <a href="https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/mega.png" alt="Mega"></a>
+                <a href="https://l6.cloudskep.com/rikct/rik1/playlist.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/rik1.png" alt="Rik1"></a>
+                <a href="https://l6.cloudskep.com/rikct/rik2/playlist.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/rik2.png" alt="Rik2"></a>
+                <a href="https://www.anacon.org/app/chans/cy/pluscy.php" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/plus.png" alt="Plus"></a>
+                <a href="https://www.anacon.org/app/chans/cy/capitalcyp.php" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/capital.png" alt="Capital"></a>
+                <a href="https://www.anacon.org/app/chans/cy/extracy.php" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/extra.png" alt="Extra"></a>
+                <a href="https://www.alphacyprus.com.cy/live/" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/alpha.png" alt="Alpha"></a>
+                <img id="morechcy" src="src/img/morech.png" alt="MoreChCY" onclick="showifr(3);">
+                <img id="tvgcy" src="src/img/tvguide.png" alt="TVguide" onclick="showifr(1);"><br>
+                <a href="https://www.antenna.gr/live" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/ant1gr.png" alt="Ant1GR"></a>
+                <a href="http://31.121.110.30:4000/play/a02d/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/megagr.png" alt="MegaGR"></a>
+                <a href="http://31.121.110.30:4000/play/a02v/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/skai.png" alt="Skai"></a>
+                <a href="https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/star.png" alt="Star"></a>
+                <a href="https://www.anacon.org/app/chans/gr/open.php" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/openbeyond.png" alt="OpenBeyond"></a>
+                <a href="http://31.121.110.30:4000/play/a02c/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/alphagr.png" alt="AlphaGR"></a>
+                <a href="https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT1/default/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/ert1.png" alt="Ert1"></a>
+                <a href="https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT2/default/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/ert2.png" alt="Ert2"></a>
+                <a href="https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT3/default/index.m3u8" target="_blank" onclick="return showCh(href);"><img class="tvCh" src="src/img/channels/ert3.png" alt="Ert3"></a>
+                <img id="morechgr" src="src/img/morech.png" alt="MoreChGR" onclick="showifr(4);">
+                <img id="tvggr" src="src/img/tvguide.png" alt="TVguide" onclick="showifr(2);"><br>
+                <nav>
+                    <ul>
+                        <li>
+                            <span><img id="movies" src="src/img/movies.png" alt="Movies"></span>
+                            <ul>
+                                <li><a href="https://eztvx.to/home" target="_blank">EZTVx.to</a></li>
+                                <li><a href="https://rlsbb.ru/" target="_blank">RlsBB.ru</a></li>
+                                <li><a href="https://yts.bz/browse-movies" target="_blank">YTS.bz</a></li>
+                                <li>
+                                    <span>Greek</span>
+                                    <ul>
+                                        <li><a href="?playimdb" onclick="return showifr(5);">PlayIMDb Search</a></li>
+                                        <li><a href="https://filmatic.online/" target="_blank">Filmatic.online</a></li>
+                                        <li><a href="https://greek-movies.com/" target="_blank">GreekMovies.com</a></li>
+                                        <li><a href="https://tainio-mania.online/" target="_blank">Tainio-Mania</a></li>
+                                        <li><a href="https://www.tenies.site/" target="_blank">Tenies.site</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Torrents</span>
+                                    <ul>
+                                        <li><a href="https://1337x.to/" target="_blank">1337x.to</a></li>
+                                        <li><a href="https://thepiratebay.org/" target="_blank">ThePirateBay.org</a></li>
+                                        <li><a href="https://therarbg.to/" target="_blank">TheRarBg.to</a></li>
+                                        <li><a href="https://torrentgalaxy.one/" target="_blank">TorrentGalaxy.one</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <span>Subtitles</span>
+                                    <ul>
+                                        <li><a href="https://www.elsubtitle.com/" target="_blank">elSubtitle.com</a></li>
+                                        <li><a href="https://www.opensubtitles.org/" target="_blank">OpenSubtitles.org</a></li>
+                                        <li><a href="https://www.yifysubtitles.ch/" target="_blank">YifySubtitles.ch</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><img id="television" src="src/img/television.png" alt="Television"></span>
+                            <ul>
+                                <li><a href="https://tv.garden/" target="_blank">TV.garden</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><img id="sports" src="src/img/sports.png" alt="Sports"></span>
+                            <ul>
+                                <li><a href="https://www.camel1.live/" target="_blank">Camel1.live</a></li>
+                                <li><a href="https://goatd.me/" target="_blank">goATD.me</a></li>
+                                <li><a href="https://myp2p.at/" target="_blank">myP2P.at</a></li>
+                                <li><a href="https://www.vipboxs.xyz/" target="_blank">VIPBoxS.xyz</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span><img id="radio" src="src/img/radio.png" alt="Radio"></span>
+                            <ul>
+                                <li><a href="https://www.di.fm/" target="_blank">DI.fm</a></li>
+                                <li><a href="https://www.e-radio.com.cy/" target="_blank">E-Radio.com.cy</a></li>
+                                <li><a href="https://www.e-radio.gr/" target="_blank">E-Radio.gr</a></li>
+                                <li><a href="https://radio.garden/" target="_blank">Radio.garden</a></li>
+                                <li><a href="https://music.youtube.com/" target="_blank">YouTube Music</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="ifrs">
+                    <div class="ifr" id="ifr0">
+                        <button id="ifr0p" onclick="changeCh('previous');"></button>
+                        <video id="ifr0v" controls autoplay></video>
+                        <button id="ifr0n" onclick="changeCh('next');"></button>
+                    </div>
+                    <iframe class="ifr" id="ifr1"></iframe>
+                    <iframe class="ifr" id="ifr2"></iframe>
+                    <iframe class="ifr" id="ifr3"></iframe>
+                    <iframe class="ifr" id="ifr4"></iframe>
+                    <iframe class="ifr" id="ifr5"></iframe>
+                </div>
+            </div>
+        </div>
+        <script>celvarevents();</script>
+    </body>
+</html>
