@@ -146,13 +146,8 @@ a.extCh:hover::after {
     pointer-events: auto;
 }
 
-#tbar a:nth-child(4) {
-    margin-right: 28px;
-}
-
 #tbar a:nth-child(5) {
-    vertical-align: middle;
-    margin-right: 1px;
+    margin-right: 28px;
 }
 
 #tbar a:nth-child(6) {
@@ -160,8 +155,13 @@ a.extCh:hover::after {
     margin-right: 1px;
 }
 
+#tbar a:nth-child(7) {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
 .bull {
-    margin-left: 15px;
+    margin-left: 18px;
     margin-right: 15px;
 }
 
