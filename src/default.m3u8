@@ -18,7 +18,7 @@ http://31.121.110.30:4000/play/a02v/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/star.png",Star
 https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/alphagr.png",AlphaGR
-http://31.121.110.30:4000/play/a02c/index.m3u8
+https://alphatvlive2-ak.siliconweb.com/alphatvlive/live_abr/alphatvlive/live_source/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert1.png",Ert1
 https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT1/default/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert2.png",Ert2
