@@ -542,6 +542,7 @@ nav ul ul li span {
 nav ul ul li a:hover,
 nav ul ul li span:hover {
     background: rgba(80, 80, 80, 0.4);
+    border-radius: 7px;
 }
 
 nav ul ul li span::after {
