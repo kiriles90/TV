@@ -1,7 +1,0 @@
-#EXTM3U
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1.png",Cyprus & Greece
-https://raw.githubusercontent.com/kiriles90/TV/refs/heads/main/src/default.js
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/sigma.png",World (by Country)
-https://iptv-org.github.io/iptv/index.country.m3u
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/mega.png",World (by Category)
-https://iptv-org.github.io/iptv/index.m3u
