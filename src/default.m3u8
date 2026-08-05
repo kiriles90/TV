@@ -1,29 +1,29 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1.png" group-title="Cyprus",Ant1
+#EXTINF:-1 tvg-id="ANT1Cyprus.cy@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1.png" group-title="Cyprus",Ant1
 https://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/sigma.png" group-title="Cyprus",Sigma
+#EXTINF:-1 tvg-id="SigmaTV.cy@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/sigma.png" group-title="Cyprus",Sigma
 https://ottstream4.primetel.com.cy/streaming-web/SigmaLive/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/mega.png" group-title="Cyprus",Mega
+#EXTINF:-1 tvg-id="Omega.cy@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/mega.png" group-title="Cyprus",Mega
 https://l1.cloudskep.com/omegatv/omcy/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik1.png" group-title="Cyprus",Rik1
+#EXTINF:-1 tvg-id="RIK1.cy@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik1.png" group-title="Cyprus",Rik1
 https://l6.cloudskep.com/rikct/rik1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik2.png" group-title="Cyprus",Rik2
+#EXTINF:-1 tvg-id="RIK2.cy@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/rik2.png" group-title="Cyprus",Rik2
 https://l6.cloudskep.com/rikct/rik2/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1gr.png" group-title="Greece",Ant1GR
+#EXTINF:-1 tvg-id="ANT1.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ant1gr.png" group-title="Greece",Ant1GR
 https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/megagr.png" group-title="Greece",MegaGR
+#EXTINF:-1 tvg-id="MegaChannel.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/megagr.png" group-title="Greece",MegaGR
 http://31.121.110.30:4000/play/a02d/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/skai.png" group-title="Greece",Skai
+#EXTINF:-1 tvg-id="SkaiTV.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/skai.png" group-title="Greece",Skai
 https://skai-live.siliconweb.com/media/cambria4/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/star.png" group-title="Greece",Star
+#EXTINF:-1 tvg-id="StarChannel.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/star.png" group-title="Greece",Star
 https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/openbeyond.png" group-title="Greece",Open
+#EXTINF:-1 tvg-id="OpenBeyond.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/openbeyond.png" group-title="Greece",Open
 https://liveopen.siliconweb.com/openTvLive/liveopen/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/alphagr.png" group-title="Greece",AlphaGR
+#EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/alphagr.png" group-title="Greece",AlphaGR
 https://alphatvlive2-ak.siliconweb.com/alphatvlive/live_abr/alphatvlive/live_source/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert1.png" group-title="Greece",Ert1
+#EXTINF:-1 tvg-id="ERT1.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert1.png" group-title="Greece",Ert1
 http://31.121.110.30:4000/play/a029/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert2.png" group-title="Greece",Ert2
+#EXTINF:-1 tvg-id="ERT2.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert2.png" group-title="Greece",Ert2
 http://31.121.110.30:4000/play/a02a/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert3.png" group-title="Greece",Ert3
+#EXTINF:-1 tvg-id="ERT3.gr@SD" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/ert3.png" group-title="Greece",Ert3
 https://ert-live.ascdn.broadpeak.io/bpk-tv/ERT3/default/index.m3u8
