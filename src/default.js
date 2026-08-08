@@ -280,7 +280,7 @@ function validateForm(urlparams) {
 function showPl(url) {
     let thisifr = document.getElementById('frmTest') ? document : document.getElementById('ifr5').contentWindow.document;
     let elms = thisifr.querySelectorAll('#ifrpl, #closepl, #extpl, #imdblnk, #sharelnk');
-    elms[0].src = 'https://www.imdb.su/title/' + url + '/';
+    elms[0].src = 'https://player.imdb.su/embed/movie/' + url + '/';
     elms.forEach((elm) => { elm.style.display = 'inline-block'; });
 }
 
