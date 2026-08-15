@@ -14,7 +14,7 @@ https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
 #EXTINF:-1 tvg-id="MEGA.gr" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/megagr.png" group-title="All Channels;Greece",MegaGR
 http://31.121.110.30:4000/play/a02d/index.m3u8
 #EXTINF:-1 tvg-id="SKAI.gr" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/skai.png" group-title="All Channels;Greece",Skai
-https://skai-live.siliconweb.com/media/cambria4/index.m3u8
+http://31.121.110.30:4000/play/a02v/index.m3u8
 #EXTINF:-1 tvg-id="STAR.gr" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/star.png" group-title="All Channels;Greece",Star
 https://livestar.siliconweb.com/starvod/star4/star4newhd.m3u8
 #EXTINF:-1 tvg-id="OPENBEYOND.gr" tvg-logo="https://raw.githubusercontent.com/kiriles90/TV-playlist/refs/heads/main/src/img/channels/portrait/openbeyond.png" group-title="All Channels;Greece",Open
